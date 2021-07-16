@@ -14,7 +14,7 @@ provider "spotify" {
 resource "spotify_playlist" "playlist" {
   name        = "Progressive Terraform"
   description = "A playlist, created with Infrastructure-as-Code, because what could be more nerdy..."
-  public      = false
+  public      = true
 
 
   tracks = [
